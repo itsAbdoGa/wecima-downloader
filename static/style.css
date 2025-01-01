@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Clean, readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc; /* Light background for better contrast */
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Stack the elements vertically */
+}
+
+/* Heading */
+h1 {
+    color: #333; /* Dark color for the heading */
+    font-size: 2em; /* Larger font for the heading */
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Space between the heading and form */
+}
+
+/* Form Container */
+form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Add padding around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Max width for form responsiveness */
+    text-align: center; /* Center text inside the form */
+}
+
+/* Labels */
+label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="text"], input[type="number"] {
+    width: 100%; /* Make the input fields take the full width */
+    padding: 10px; /* Add padding inside the input fields */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 2px solid #ccc; /* Light border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Larger font size for better readability */
+    box-sizing: border-box; /* Include padding and border in the element's total width/height */
+}
+
+/* Focus Effect */
+input:focus {
+    border-color: #4caf50; /* Green border on focus */
+    outline: none; /* Remove the default outline */
+}
+
+/* Button */
+button {
+    background-color: #4caf50; /* Green background for the button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2em;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
